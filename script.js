@@ -34,7 +34,7 @@ if (modal) {
 // ========== ФОРМА ЗАЯВКИ ==========
 const requestForm = document.getElementById('requestForm');
 // ВАША ПРАВИЛЬНАЯ ССЫЛКА ИЗ GOOGLE APPS SCRIPT
-const PROXY_URL = 'https://script.google.com/macros/s/AKfycbxeafV9XnC2KWaw3jJ-hKiAY4IpjI2-r27C4XxLWJV8COHsSfm4wWB66F-UQgLg73f7dg/exec';
+const PROXY_URL = 'https://script.google.com/macros/s/AKfycbzJ2GP3PhtVv2CFxsfynM5e1yf9t9BiBbFu0hWd339kjRa8OlIeDzabtRHo8HKFaLrmXQ/exec';
 
 if (requestForm) {
     requestForm.addEventListener('submit', async function(e) {
