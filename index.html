@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>СпецПарк24 | Аренда спецтехники в Казани</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== ШАПКА ========== -->
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo">
+                <h1>Спец<span>Парк24</span></h1>
+                <p>Аренда спецтехники в Казани</p>
+            </div>
+            <div class="header-contacts">
+                <a href="tel:+79871748399" class="phone">+7 (987) 174-83-99</a>
+                <a href="https://wa.me/79161234567" class="messenger whatsapp" target="_blank">WhatsApp</a>
+                <a href="https://t.me/spektspark24" class="messenger telegram" target="_blank">Telegram</a>
+            </div>
+            <button class="burger" id="burgerBtn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav" id="navMenu">
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О компании</a>
+            <a href="#advantages">Преимущества</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== ГЛАВНЫЙ ЭКРАН (HERO) ========== -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Аренда спецтехники <span>в Казани</span></h1>
+            <p>Экскаваторы, погрузчики, самосвалы, автовышки и другая техника. Доставка на объект. Работаем с НДС и без.</p>
+            <div class="hero-buttons">
+                <a href="#catalog" class="btn btn-primary">Выбрать технику →</a>
+                <a href="#request" class="btn btn-secondary">Заказать звонок</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== КАТАЛОГ ТЕХНИКИ ========== -->
+<section id="catalog" class="catalog">
+    <div class="container">
+        <h2>Каталог спецтехники</h2>
+        <div class="catalog-grid">
+            <!-- Карточка 1 -->
+            <div class="catalog-card">
+                <div class="card-image">
+                    <img src="https://placehold.co/400x250/2c3e50/white?text=Экскаватор" alt="Экскаватор">
+                </div>
+                <h3>Экскаватор JCB 3CX</h3>
+                <div class="card-specs">
+                    <span>🔧 Ковш 0.3 м³</span>
+                    <span>💪 Мощность 80 л.с.</span>
+                    <span>📅 2021 г.</span>
+                </div>
+                <div class="card-price">от 2 500 ₽/час</div>
+                <button class="btn-order" data-name="Экскаватор JCB 3CX">Заказать →</button>
+            </div>
+            <!-- Карточка 2 -->
+            <div class="catalog-card">
+                <div class="card-image">
+                    <img src="https://placehold.co/400x250/2c3e50/white?text=Погрузчик" alt="Погрузчик">
+                </div>
+                <h3>Фронтальный погрузчик</h3>
+                <div class="card-specs">
+                    <span>🔧 Ковш 2.5 м³</span>
+                    <span>💪 Мощность 220 л.с.</span>
+                    <span>📅 2022 г.</span>
+                </div>
+                <div class="card-price">от 3 200 ₽/час</div>
+                <button class="btn-order" data-name="Фронтальный погрузчик">Заказать →</button>
+            </div>
+            <!-- Карточка 3 -->
+            <div class="catalog-card">
+                <div class="card-image">
+                    <img src="https://placehold.co/400x250/2c3e50/white?text=Самосвал" alt="Самосвал">
+                </div>
+                <h3>Самосвал КамАЗ</h3>
+                <div class="card-specs">
+                    <span>🚛 Грузоподъёмность 20 т</span>
+                    <span>💪 Мощность 260 л.с.</span>
+                    <span>📅 2020 г.</span>
+                </div>
+                <div class="card-price">от 2 800 ₽/час</div>
+                <button class="btn-order" data-name="Самосвал КамАЗ">Заказать →</button>
+            </div>
+            <!-- Карточка 4 -->
+            <div class="catalog-card">
+                <div class="card-image">
+                    <img src="https://placehold.co/400x250/2c3e50/white?text=Автовышка" alt="Автовышка">
+                </div>
+                <h3>Автовышка 22 м</h3>
+                <div class="card-specs">
+                    <span>🔧 Высота 22 м</span>
+                    <span>👥 Грузоподъёмность 300 кг</span>
+                    <span>📅 2021 г.</span>
+                </div>
+                <div class="card-price">от 1 800 ₽/час</div>
+                <button class="btn-order" data-name="Автовышка 22 м">Заказать →</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== ПРЕИМУЩЕСТВА ========== -->
+<section id="advantages" class="advantages">
+    <div class="container">
+        <h2>Почему выбирают нас</h2>
+        <div class="advantages-grid">
+            <div class="advantage">
+                <div class="advantage-icon">🕐</div>
+                <h3>Быстрая подача</h3>
+                <p>Техника на объекте в течение 2 часов после заказа</p>
+            </div>
+            <div class="advantage">
+                <div class="advantage-icon">✅</div>
+                <h3>Вся техника исправна</h3>
+                <p>Регулярное ТО и замена расходников</p>
+            </div>
+            <div class="advantage">
+                <div class="advantage-icon">📄</div>
+                <h3>Работаем с НДС</h3>
+                <p>Заключаем договор, предоставляем закрывающие документы</p>
+            </div>
+            <div class="advantage">
+                <div class="advantage-icon">👨‍🔧</div>
+                <h3>Опытные операторы</h3>
+                <p>Все машинисты с опытом от 3 лет</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== О КОМПАНИИ ========== -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-content">
+            <h2>О компании «СпецПарк24»</h2>
+            <p>Работаем на рынке аренды спецтехники с 2015 года. Имеем парк из 30+ единиц техники: экскаваторы, погрузчики, самосвалы, автовышки и другая спецтехника.</p>
+            <p>Доставляем технику на объект бесплатно (в пределах Казани и до 30 км от города). Работаем с юридическими и физическими лицами.</p>
+            <div class="about-stats">
+                <div><span>8+</span> лет на рынке</div>
+                <div><span>30+</span> единиц техники</div>
+                <div><span>500+</span> довольных клиентов</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== ФОРМА ЗАЯВКИ ========== -->
+<section id="request" class="request">
+    <div class="container">
+        <h2>Оставьте заявку</h2>
+        <p>Мы перезвоним за 2 минуты и подберём технику под вашу задачу</p>
+        <form id="requestForm" class="request-form">
+            <input type="text" id="userName" placeholder="Ваше имя" required>
+            <input type="tel" id="userPhone" placeholder="Номер телефона" required>
+            <select id="techType">
+                <option value="">Выберите технику</option>
+                <option>Экскаватор</option>
+                <option>Погрузчик</option>
+                <option>Самосвал</option>
+                <option>Автовышка</option>
+                <option>Другая техника</option>
+            </select>
+            <textarea id="comment" rows="2" placeholder="Комментарий (срок, адрес, доп. требования)"></textarea>
+            <button type="submit" class="btn btn-primary">Отправить заявку →</button>
+        </form>
+        <p class="request-note">Нажимая на кнопку, вы соглашаетесь с обработкой персональных данных</p>
+    </div>
+</section>
+
+<!-- ========== КОНТАКТЫ ========== -->
+<section id="contacts" class="contacts">
+    <div class="container">
+        <h2>Контакты</h2>
+        <div class="contacts-grid">
+            <div class="contacts-info">
+                <p><strong>📞 Телефон:</strong> <a href="tel:+78431234567">+7 (843) 123-45-67</a></p>
+                <p><strong>📧 Email:</strong> <a href="mailto:info@speckpark24.ru">info@speckpark24.ru</a></p>
+                <p><strong>📍 Адрес:</strong> г. Казань, ул. Техническая, 15</p>
+                <p><strong>🕐 Режим работы:</strong> Пн-Вс, 08:00 - 20:00</p>
+                <div class="socials">
+                    <a href="https://wa.me/79161234567" target="_blank">WhatsApp</a>
+                    <a href="https://t.me/spektspark24" target="_blank">Telegram</a>
+                </div>
+            </div>
+            <div class="contacts-map">
+                <!-- Вставка карты (Яндекс.Карты) -->
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=49.1234,55.7964&z=12&l=map" width="100%" height="250" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Плавающие кнопки мессенджеров -->
+<div class="floating-messengers">
+    <a href="https://wa.me/79161234567" class="float-wa" target="_blank">💬 WhatsApp</a>
+    <a href="https://t.me/spektspark24" class="float-tg" target="_blank">💬 Telegram</a>
+</div>
+
+<!-- Модальное окно (всплывашка после заказа) -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <p>✅ Заявка отправлена!</p>
+        <p>Мы свяжемся с вами за 2 минуты.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
