@@ -16,7 +16,6 @@ const modalClose = document.querySelector('.modal-close');
 function showModal() {
     if (modal) {
         modal.style.display = 'flex';
-        console.log('Модальное окно открыто');
     }
 }
 
@@ -34,6 +33,7 @@ if (modal) {
 
 // ========== ФОРМА ЗАЯВКИ ==========
 const requestForm = document.getElementById('requestForm');
+// ВАША ПРАВИЛЬНАЯ ССЫЛКА ИЗ GOOGLE APPS SCRIPT
 const PROXY_URL = 'https://script.google.com/macros/s/AKfycbxeafV9XnC2KWaw3jJ-hKiAY4IpjI2-r27C4XxLWJV8COHsSfm4wWB66F-UQgLg73f7dg/exec';
 
 if (requestForm) {
@@ -66,6 +66,7 @@ if (requestForm) {
                 alert('Ошибка отправки. Попробуйте позже.');
             }
         } catch (error) {
+            console.error('Ошибка:', error);
             alert('Ошибка соединения. Напишите нам в Telegram.');
         }
     });
